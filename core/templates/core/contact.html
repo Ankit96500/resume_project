@@ -1,0 +1,60 @@
+{% extends "core/parent.html" %}
+{% load static %}
+{% block content %}
+<div class="container-sm mt-5">
+    <h1 class="text-warning border-bottom border-danger mb-4">CONTACT US</h1>
+    <div class="row text-white">
+        <p class="mx-auto ss" style="text-align:center;">
+            do you have any questions? please do not hesistate to contact. I will come back to you within a matter of hours to help you. 
+        </p>
+        <div class="col-sm-9 mb-5">
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Your name*</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" >
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" >
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" >
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Your message*</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+
+        <div class="col-sm-3 text-center" >
+        <ul style="list-style-type:none;" class="mt-5">
+                <li class="my-5">
+                    <i class="fa-solid fa-location-dot fa-2x mb-3 icolor"></i>
+                    <h6>hodal,palwal,india</h6>
+                </li>
+                <li class="my-5">
+                    <i class="fa-solid fa-phone fa-2x mb-3 icolor"></i>
+                    <h6>+91 93060 78823</h6>
+                </li>
+                <li class="my-5">
+                    <i class="fa-solid fa-envelope fa-2x mb-3 icolor"></i>
+                    <h6>contact@gmail.com</h6>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-center">
+
+    <a href="https://twitter.com/"><i class="fa-brands fa-twitter fa-1x mb-3 icolor mx-2"></i></a>
+    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-1x mb-3 icolor mx-2"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-1x mb-3 icolor mx-2"></i></a>
+    <a href="https://github.com/+533,"><i class="fa-brands fa-github fa-1x mb-3 icolor mx-2"></i></a>
+    </div>
+</div>
+
+{% endblock content %}
+
+

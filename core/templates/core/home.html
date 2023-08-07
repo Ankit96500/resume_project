@@ -1,0 +1,29 @@
+{% extends 'core/parent.html' %}
+{% load static %}
+{% block content %}
+
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/image/img1.jpg' %}" class="img-fluid img-thumbnail ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=" pic">
+    </div>
+    <div class="mt-4 text-white mx-5">
+        <h1 class="font-weight-bold fontst">Hello,</h1>
+        <div class="px-4" style="text-align:justify;">
+            <p class="ind">
+                i am <b class= "text-warning"> ankit sharma </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam dignissimos accusantium praesentium dolor! Doloribus, deserunt animi. Accusantium, aspernatur officiis.
+            </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat blanditiis laboriosam nisi eius suscipit repellendus nulla distinctio aperiam eveniet! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa distinctio reiciendis eum deleniti itaque, natus maxime ut similique sed. Culpa?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium qui nihil ipsum, nemo eligendi, quaerat ipsam harum, minus excepturi veritatis doloribus work in <b class="text-warning"> abc pvt.ltd</b> quidem dolorem iure ea quis dolore veniam minima ad.</p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem vel debitis, nostrum illo mollitia soluta nesciunt voluptas explicabo cumque modi odit molestias sequi! Ipsa?
+
+            </p>
+        </div>
+    </div>
+   <div class="text-center">
+       <a href="#" class="btn btn-outline-info my-3 me-5">hire-me</a>
+       <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3">contact</a>
+   </div>
+</div>
+
+{% endblock content %}

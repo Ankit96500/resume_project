@@ -1,0 +1,50 @@
+/* font */
+.fontst{
+    font-family: 'Pacifico', cursive;
+}
+
+.ind{
+    text-indent: 100px;
+}
+
+html,body{
+    height:100%
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+
+.lineh{
+   line-height: 25%;
+   text-align: justify;
+}
+
+.jus{
+    text-align: center;
+}
+
+/* services icon color */
+.icolor{
+    color: chartreuse;
+}
+/* services subtitle color*/
+.ss{
+    color: silver;
+}
+
+a.nav{
+    color: bisque;
+}
+
+a.nav:hover{
+    color: rgb(14, 9, 2);
+    background-color: coral;
+}
+
+a.nav.active{
+    color: rgb(14, 9, 2);
+    background-color: coral;
+    font-weight: bold;
+}
